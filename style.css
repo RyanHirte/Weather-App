@@ -48,3 +48,58 @@ body {
   width: 90%;
   height: 90%;
 }
+
+.temperature {
+  padding-top: 5px;
+  margin-top: 14px;
+  margin-bottom: 14px;
+  border: 5px solid #fff;
+  border-radius: 20px;
+}
+
+.temperature h2 {
+  margin-top: 3px;
+}
+
+.temperature img {
+  width: 200px;
+  height: 200px;
+}
+
+.wind-precipitation {
+  display: flex;
+}
+
+.wind {
+  border: 5px solid #fff;
+  border-radius: 20px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.wind img {
+  width: 33%;
+}
+
+.wind h3 {
+  text-align: center;
+  width: 66%;
+}
+
+.precipitation {
+  border: 5px solid #fff;
+  border-radius: 20px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.precipitation img {
+  width: 33%;
+}
+
+.precipitation h3 {
+  text-align: center;
+  width: 66%;
+}
