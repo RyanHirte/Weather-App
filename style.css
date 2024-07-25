@@ -17,8 +17,34 @@ body {
   color: #fff;
   padding: 40px 35px;
   text-align: center;
+  margin: auto;
+}
+
+.search {
+  display: flex;
+  height: 40px;
 }
 
 .search input {
-  border-radius: 50px;
+  width: 100%;
+  border-radius: 20px;
+  font-size: 18px;
+  border: none;
+  margin: 0;
+}
+
+.search button {
+  width: 50px;
+  border-radius: 100%;
+  cursor: pointer;
+  border: none;
+}
+
+.search button:hover {
+  border: 1px solid #222;
+}
+
+.search img {
+  width: 90%;
+  height: 90%;
 }
