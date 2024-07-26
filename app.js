@@ -50,4 +50,6 @@ document.addEventListener("DOMContentLoaded", () => {
         console.error("Error", error.message);
       });
   };
+
+  const getDirection = (deg) => {};
 });
