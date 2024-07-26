@@ -45,6 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
         document.getElementById("desc").textContent = description;
         document.getElementById("wind").textContent = `${wind} mph`;
         document.getElementById("humid").textContent = `${humidity}% humidity`;
+      })
+      .catch((error) => {
+        console.error("Error", error.message);
       });
   };
 });
