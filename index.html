@@ -9,24 +9,24 @@
   <body>
     <div class="card">
       <div class="search">
-        <input type="text" placeholder="Enter City Name" />
-        <button>
+        <input type="text" placeholder="Enter City Name" id="cityInput" />
+        <button id="searchButton">
           <img src="images/search.png" alt="search-icon" />
         </button>
       </div>
       <div class="temperature">
-        <h1>75°F</h1>
-        <h2>Sunny</h2>
+        <h1 id="temperatureData">temp data here</h1>
+        <h2 id="desc">description here</h2>
         <img src="/images/sunny.png" alt="sunny icon" />
       </div>
       <div class="wind-precipitation">
         <div class="wind">
           <img src="/images/wind-icon.png" alt="wind-icon" />
-          <h3>5 mph north</h3>
+          <h3 id="wind">wind</h3>
         </div>
         <div class="precipitation">
           <img src="/images/precipitation-icon.png" alt="precipitation-icon" />
-          <h3>5% humidity</h3>
+          <h3 id="humid">humidity</h3>
         </div>
       </div>
     </div>
