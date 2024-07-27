@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const API_KEY = "b67bfd5ea3cb0a7ca5128826cb92cb7d";
+  const API_KEY = "YOUR KEY";
   const cityInput = document.getElementById("cityInput");
   const searchButton = document.getElementById("searchButton");
 
